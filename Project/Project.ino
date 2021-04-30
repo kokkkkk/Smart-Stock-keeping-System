@@ -17,12 +17,8 @@
 
 //Global variables
 #define ESP_BAUDRATE 115200
-char ssid[] = "EE3070_LI6508_3"; // lab's network SSID (name)
-char pass[] = "EE3070LI6508"; // lab's network password
-//char ssid[] = "mingtsun"; // network SSID (name)
-//char pass[] = "tomlee0629"; // network password
-//char ssid[] = "MyASUS"; // network SSID (name)
-//char pass[] = "abcdefgh"; // network password
+char ssid[] = "SSID"; // lab's network SSID (name)
+char pass[] = "PASS"; // lab's network password
 int status = WL_IDLE_STATUS; // the Wifi radio's status
 WiFiEspClient client;
 
@@ -30,8 +26,8 @@ PROGMEM const unsigned long channelNumber = 1295386;
 PROGMEM const unsigned int priceFieldNumber = 1;
 PROGMEM const unsigned int P1StockFieldNumber = 3;
 PROGMEM const unsigned int P2StockFieldNumber = 4;
-const char * writeAPI = "VNL731QSD3LJL3CQ";
-const char * readAPI = "QY26E3A48PDADXQP";
+const char * writeAPI = "writeAPI";
+const char * readAPI = "readAPI";
 //SoftwareSerial Serial1(19, 18);
 
 #define SCREEN_WIDTH 128
