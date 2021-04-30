@@ -14,7 +14,7 @@ $ch = curl_init($url);
 
 //The JSON data.
 $jsonData = array(
-    'api_key' => 'VNL731QSD3LJL3CQ',
+    'api_key' => 'api_key',
     'field1' => $value,
 );
 
